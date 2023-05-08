@@ -1,0 +1,117 @@
+body {
+    background-image: url("https://img.migalhas.com.br/gf_base/empresas/MIGA/imagens/0B454E31BA06467DA1FA35649D473427A75C_VINHOS.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    height: 0%; 
+}
+
+#menu {
+    width: 49%;
+    height: 55px;
+    margin-top: 25px;
+    text-align: absolute;
+    background-color: #61401D;
+    -webkit-border-radius: 20px 20px;
+    margin-left: 19%;
+    
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    justify-content: space-between;
+  
+}
+
+#menu ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline 3px solid #BB8E55;
+    border-radius: 5%;
+}
+
+.search-text {
+    -webkit-border-radius: 25px 20px;
+    border: 0;
+    outline: 0;
+    width: 14%;
+    height: 36px;
+    padding: 3px; 
+    margin-left: 2%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;  
+    margin-top: 12px;
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+button {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    text-decoration: underline dashed;
+    font-size: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 330px;
+    height: 200px;
+    left: 45%;
+} 
+
+#fundo {
+    width: 80%;
+    height: 550px;
+    background-color: #61401D;
+    -webkit-border-radius: 20px 20px;
+    margin-left: 15%;
+}
+
+#fundo ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+#fundo ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+#fundo ul li a:hover {
+    text-decoration: underline 2px solid #BB8E55;
+    border-radius: 4%;
+}
+
+#produtos {
+    display: inline-block;
+    list-style: none;
+}
