@@ -4,26 +4,30 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}   
+}
 
 .container {
-    width: 60%;
-    height: 1200px;
-    margin: auto;   
-
+    width: 100%;
+    height: 0%; 
 }
 
 #menu {
-    width: 45%;
+    left: 50%;
+    width: 40%;
     height: 40px;
-    text-align: center;
+    text-align: absolute;
     background-color: #61401D;
+    justify-content: baseline;
+    -webkit-border-radius: 10px 20px;
+    
 }
 
 #menu ul li {
     list-style: none;
     display: inline-block;
     padding: 4px;
+    justify-content: space-between;
+  
 }
 
 #menu ul li a{
@@ -37,6 +41,15 @@ body {
 #menu ul li a:hover {
     text-decoration: underline 2px solid #BB8E55;
     border-radius: 5%;
+}
+
+.search-text {
+    -webkit-border-radius: 10px 20px;
+    border: 0;
+    outline: 0;
+    width: 15%;
+    height: 30px;
+    padding: 0; 
 }
 
 h1 {
@@ -56,10 +69,10 @@ h2 {
 button {
     font-family: 'Bebas Neue', cursive;
     color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    text-decoration: underline dashed;
+    font-size: 50px;
     background-color: transparent;
     border-color: transparent;
-    
-  }
+    left: 50%;
+}
+
