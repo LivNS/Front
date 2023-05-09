@@ -10,7 +10,6 @@ body {
     width: 100%;
     height: 0%; 
 }
-
 #menu {
     width: 47%;
     height: 60px;
@@ -51,38 +50,6 @@ body {
     margin-left: 3%;
 }
 
-h1 {
-    font-family: 'Bebas Neue', cursive;  
-    margin-top: 12px;
-    text-align: center;
-    font-size: 120px;
-    color: #fff;
-}
-
-h2 {
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    font-size: 90px;
-    color: #fff;
-}
-
-button {
-    font-family: 'Bebas Neue', cursive;
-    color: #fff;
-    text-decoration: underline dashed;
-    font-size: 60px;
-    background-color: transparent;
-    border-color: transparent;
-    position: absolute;
-    top: 500px;
-    height: 200px;
-    left: 44%;
-} 
-
-#botao {
-    background-color: #61401D;
-}
-
 #fundo {
     width: 80%;
     height: 550px;
@@ -99,38 +66,17 @@ button {
 
 }
 
-#fundo ul li a{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+#box1 {
     color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    
+    text-align: left;
+    font-size: 20px;
+    margin-left: 35px;
 }
-
-#fundo ul li a:hover {
-    text-decoration: underline 4px solid #BB8E55;
-    border-radius: 10%;
-}
-
 
 img {
-    display: inline-block;
     position: relative;
-    width: 20%;
-    padding-right: 20px;
-    padding-left: 30px;
+    width: 36%;
+    position: absolute;
+    left: 950px;
+    top: 175px;
 }
-
-h4 {
-    font-size: 20px;
-    color: #fff;
-    display: inline-block;
-    padding: 2px 53px;
-    text-align: center;
-}
-
-h4:hover {
-    color: #000 ;
-}
-
