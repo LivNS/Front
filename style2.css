@@ -66,6 +66,19 @@ body {
 
 }
 
+#fundo ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#fundo ul li a:hover {
+    text-decoration: underline 4px solid #BB8E55;
+    border-radius: 10%;
+}
+
 #box1 {
     color: #fff;
     text-align: left;
