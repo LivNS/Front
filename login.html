@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
     <title>Menu</title>
 </head>
 <body>
@@ -20,18 +20,35 @@
             <input type="text" class="search-text" placeholder="Buscar">
         </ul>
     </nav>
-</div>   
-
-  
+    </div>   
+        <div class="login">
+            <h2>Faça seu cadastro</h2>
+            <form onsubmit="submitForm()">
+                <div class="input-box">
+                    <label>Email</label> 
+                    <input type="email" required>
+                </div>
+                <div class="input-box">
+                    <label>Senha</label>
+                    <input type="password" id="pass" required>
+                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
+                </div>
+                <div class="senha">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="btao">Registrar</button>
+                <div class="login-register"></div>
+            </form>
+        </div>
+    </div>
+</div>  
 
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   </style>
 
-
-
-<script src="script.js"></script>
+<script src="script2.js"></script>
 <footer>@2023-todos os direitos reservados</footer>
 </body>
 </html>
