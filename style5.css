@@ -69,16 +69,18 @@ h2 {
 
 button {
     font-family: 'Bebas Neue', cursive;
-    color: #fff;
-    text-decoration: underline dashed;
-    font-size: 60px;
+    color:#fff;
+    text-decoration:dotted;
+    font-size: 20px;
     background-color: transparent;
-    border-color: transparent;
-    position: absolute;
-    top: 500px;
-    height: 200px;
-    left: 44%;
+    border-color:grey;
+    position: relative;
+    top:100px;
+    height: 100px;
+    left:10%;
+    border-style: inset;
 } 
+
 
 #botao {
     background-color: #61401D;
@@ -124,7 +126,7 @@ img {
     padding-left: 30px;
 }
 
-h4 {
+.result h4 {
     font-size: 20px;
     color: #fff;
     display: inline-block;
@@ -134,8 +136,4 @@ h4 {
 
 h4:hover {
     color: #000 ;
-}
-
-.footer {
-    color: #fff;
 }

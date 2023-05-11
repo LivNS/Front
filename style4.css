@@ -1,0 +1,198 @@
+body {
+    background-image: url("https://img.migalhas.com.br/gf_base/empresas/MIGA/imagens/0B454E31BA06467DA1FA35649D473427A75C_VINHOS.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    height: 0%; 
+}
+#menu {
+    width: 47%;
+    height: 60px;
+    margin-top: 30px;
+    text-align: absolute;
+    background-color: #61401D;
+    -webkit-border-radius: 20px 20px;
+    margin-left: 19%;
+    background-attachment: fixed;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    justify-content: space-between;
+  
+}
+
+#menu ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline 3px solid #BB8E55;
+    border-radius: 5%;
+}
+
+.search-text {
+    -webkit-border-radius: 25px 20px;
+    width: 11%;
+    height: 28px;
+    padding: 9px; 
+    margin-left: 3%;
+}
+
+#box1 {
+    width: 80%;
+    height: 550px;
+    background-color: #61401D;
+    -webkit-border-radius: 20px 20px;
+    margin-left: 15%;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;  
+    text-align: justify;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 2%;
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left:4%;
+}
+
+img {
+    margin-top: 2%;
+    margin-left: 6%;
+    width: 450px;
+}
+
+#box1 a {
+    color: #fff;
+    text-align: center;
+    line-height: 700px;
+    font-size: 25px;
+    margin-left: 5%;
+    position: absolute;
+}
+
+#box1 a:hover{
+    color: #000;
+}
+
+#box2 {
+    width: 80%;
+    height: 550px;
+    background-color: #61401D;
+    -webkit-border-radius: 20px 20px;
+    margin-left: 15%;
+    margin-top: -1%;
+}
+
+#box2 p {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-align: absolute;
+    font-size: 30px;
+    line-height: -80%;
+}
+
+button {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 60px;
+    background-color: transparent;
+    border-color: transparent;
+    height: 120%;
+    position: absolute;
+    left: 76%;
+    text-decoration: underline dotted;
+} 
+
+button:hover {
+    color: #000;
+}
+
+#box3 {
+    width: 80%;
+    height: 550px;
+    background-color: #61401D;
+    -webkit-border-radius: 20px 20px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#box3 h1 {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    margin-top: -37%;
+    font-size: 30px;
+}
+
+#box3 p {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    margin-left: 1%;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 2%;
+}
+
+#box3 img {
+    width: 700px;
+    margin-left: 25%;
+    margin-top: 19%;
+}
+
+#box4 {
+    width: 80%;
+    height: 550px;
+    background-color: #61401D;
+    -webkit-border-radius: 20px 20px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#box4 img {
+    width: 700px;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+#box4 h1 {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-align: absolute;
+    margin-top: 1%;
+    font-size: 30px;
+    line-height: 85px;
+}
+
+#box4 p {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    margin-left: 1%;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: -31%;
+}
+

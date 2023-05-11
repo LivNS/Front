@@ -65,7 +65,6 @@ body {
     display: inline-block;
     padding: 30px;
     justify-content: space-between;
-
 }
 
 #fundo ul li a{
@@ -83,6 +82,7 @@ body {
 
 #box1 {
     color: #fff;
+    
     text-align: left;
     font-size: 20px;
     margin-left: 35px;
@@ -95,3 +95,4 @@ img {
     left: 950px;
     top: 175px;
 }
+

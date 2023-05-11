@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style3.css">
-    <title>Menu</title>
+    <title>login</title>
 </head>
 <body>
-
+    
     <div class="container">
     <nav id="menu">
         <ul>
@@ -20,29 +20,26 @@
             <input type="text" class="search-text" placeholder="Buscar">
         </ul>
     </nav>
-    </div>   
-        <div class="login">
-            <h2>Faça seu cadastro</h2>
-            <form onsubmit="submitForm()">
-                <div class="input-box">
-                    <label>Email</label> 
-                    <input type="email" required>
-                </div>
-                <div class="input-box">
-                    <label>Senha</label>
-                    <input type="password" id="pass" required>
-                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
-                </div>
-                <div class="senha">
-                    <a href="#">Esqueceu a senha?</a>
-                </div>
-                <button type="submit" class="btao">Registrar</button>
-                <div class="login-register"></div>
-            </form>
-        </div>
+    <div id="box1">
+        <p>Escreva aqui seu nome:</p>
+        <form id="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+        <p>Escreva aqui seu número de telefone:</p>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+        <br>
+        <p>Escreva aqui seu email:</p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <button id="botao" type="submit">Enviar</button>
+        </form>
+    </nav>
+        <br>
+        <p>Logo você receberá uma mensagem, Vinheria Agnello fica feliz em fazer negócio com você!</p>
+        <br>
     </div>
-</div>  
-
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');

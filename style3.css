@@ -51,7 +51,7 @@ body {
     margin-left: 3%;
 }
 
-#fundo {
+#box1 {
     width: 80%;
     height: 550px;
     background-color: #61401D;
@@ -60,96 +60,30 @@ body {
     background-attachment: fixed;
 }
 
-#fundo ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 30px;
-    justify-content: space-between;
-
-}
-
-#fundo ul li a{
+#formulario {
     font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+    text-align: justify;
+    font-size: 22px;
     color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
+    margin-left: 2%;
+    margin-top: -1%;
 }
 
-#fundo ul li a:hover {
-    text-decoration: underline 4px solid #BB8E55;
-    border-radius: 10%;
-}
-
-.contato {
-    color: #fff;
+p {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-    padding-left: 3%;
-}
-
-.contato img {
-    width: 60%;
-    height: 0%;
-    border-radius: 20px 20px;
-}
-
-.contato button {
-    font-family: 'Bebas Neue', cursive;
     color: #fff;
-    font-size: 30px;
-    background-color: transparent;
-    border-color: transparent;
-    position: absolute;
-    top: 42px;
-    left: 75%;
-} 
-
-.contato button:hover {
-    color: black;
-    text-decoration: underline 4px solid #000;
+    text-align: justify;
+    margin-left: 3%;
 }
 
-.login {
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-    width: 1300px;
-    height: 550px;
-    margin-left: 15%;
-    background: transparent;
-    border: 2px solid rgba(225, 225, 225, .5);
-    border-radius: 20px;
-    backdrop-filter: blur(30px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-    display: flexbox;
+#botao {
+    background-color: #BB8E55;
+    color:#fff;
+    height: 4%;
+    width: 70px;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: -2%;
     justify-content: center;
 }
-
-.senha {
-        font-size: 15px;
-        margin-left: -11%;
-        margin-top: 1%;
-    }
-
-#pass {
-    width: 145px;
-    padding-right: 20px;
-    margin-top: 2%;
-  }
-  
-  .olho {
-    cursor: pointer;
-    margin-left: -1.9%;
-    margin-top: 1.9%;
-    position: absolute;
-    width: 23px;
-  }
-
-  .btao {
-    width: 135px;
-    height: 30px;
-    margin-top: 1%;
-  }
